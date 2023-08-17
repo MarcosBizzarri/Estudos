@@ -89,3 +89,33 @@
   console.log('Benedita'.indexOf('Bizzarri'))
 
   console.log(fullName.slice(0, 7))
+
+
+  // métodos de array
+  const list = ['a', 'b', 'c', 'd', 'e']
+
+  console.log(list.length)
+
+  console.log(list[2])
+
+  list[5] = 'f'
+
+  console.log(list)
+
+  console.log(list[list.length -1 ])
+
+  list.push('g')
+
+  console.log(list)
+
+  list.pop()
+
+  console.log(list)
+
+  list.shift()
+
+  console.log(list)
+
+  list.unshift('a')
+
+  console.log(list)
